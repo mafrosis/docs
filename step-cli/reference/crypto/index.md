@@ -97,7 +97,7 @@ In general you should not use an asymmetric keypair for both signing and
    encryption. Using a single key for both operations can introduce attack vectors
    that would not otherwise exist. Attacks aside, signing keys and encryption
    keys generally have different life cycles. Signing keys are generally destroyed
-   once they're no longer useful for singing new data. Encryption keys, on the
+   once they're no longer useful for signing new data. Encryption keys, on the
    other hand, must be retained as long as data exists that was encrypted for the
    key. So using a signing key for encryption may force you to retain a signing
    key for longer than it's needed, leaving it susceptible to misuse.
